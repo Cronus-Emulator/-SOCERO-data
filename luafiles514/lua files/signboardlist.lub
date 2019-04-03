@@ -1,0 +1,750 @@
+IT_NONE = 0
+IT_BMP = 1
+IT_SPRITE = 2
+IT_SIGNBOARD = 3
+SignBoardList = {
+	{
+		"Default",
+		157,
+		278,
+		0,
+		IT_BMP,
+		"유저인터페이스\\collection\\꽃가지.bmp",
+		"Cannot enter",
+		"#0x009EBDFF"
+	},
+	{
+		"moc_para01",
+		110,
+		97,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\suffragium.bmp",
+		"  Paradise Coin Service",
+		"#0x00FFFFFF"
+	},
+	{
+		"moc_para01",
+		112,
+		76,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\suffragium.bmp",
+		"  Paradise Coin Service",
+		"#0x00FFFFFF"
+	},
+	{
+		"prontera",
+		124,
+		76,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\suffragium.bmp",
+		"  Grupo Eden",
+		"#0x00FFFFFF"
+	},
+	{
+		"moc_ruins",
+		68,
+		164,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\suffragium.bmp",
+		"  Grupo Eden",
+		"#0x00FFFFFF"
+	},
+	{
+		"geffen",
+		132,
+		66,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\suffragium.bmp",
+		"  Grupo Eden",
+		"#0x00FFFFFF"
+	},
+	{
+		"alberta",
+		124,
+		67,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\suffragium.bmp",
+		"  Grupo Eden",
+		"#0x00FFFFFF"
+	},
+	{
+		"aldebaran",
+		133,
+		119,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\suffragium.bmp",
+		"  Grupo Eden",
+		"#0x00FFFFFF"
+	},
+	{
+		"payon",
+		177,
+		111,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\suffragium.bmp",
+		"  Grupo Eden",
+		"#0x00FFFFFF"
+	},
+	{
+		"morocc",
+		161,
+		97,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\suffragium.bmp",
+		"   Grupo Eden",
+		"#0x00FFFFFF"
+	},
+	{
+		"izlude",
+		131,
+		148,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\suffragium.bmp",
+		"  Grupo Eden",
+		"#0x00FFFFFF"
+	},
+	{
+		"umbala",
+		105,
+		158,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\suffragium.bmp",
+		"  Grupo Eden",
+		"#0x00FFFFFF"
+	},
+	{
+		"comodo",
+		202,
+		151,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\suffragium.bmp",
+		"  Grupo Eden",
+		"#0x00FFFFFF"
+	},
+	{
+		"yuno",
+		144,
+		189,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\suffragium.bmp",
+		"  Grupo Eden",
+		"#0x00FFFFFF"
+	},
+	{
+		"hugel",
+		93,
+		153,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\suffragium.bmp",
+		"  Grupo Eden",
+		"#0x00FFFFFF"
+	},
+	{
+		"einbroch",
+		250,
+		211,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\suffragium.bmp",
+		"  Grupo Eden",
+		"#0x00FFFFFF"
+	},
+	{
+		"lighthalzen",
+		164,
+		86,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\suffragium.bmp",
+		"  Grupo Eden",
+		"#0x00FFFFFF"
+	},
+	{
+		"rachel",
+		125,
+		144,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\suffragium.bmp",
+		"  Grupo Eden",
+		"#0x00FFFFFF"
+	},
+	{
+		"veins",
+		220,
+		109,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\suffragium.bmp",
+		"  Grupo Eden",
+		"#0x00FFFFFF"
+	},
+	{
+		"amatsu",
+		100,
+		145,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\suffragium.bmp",
+		"  Grupo Eden",
+		"#0x00FFFFFF"
+	},
+	{
+		"ayothaya",
+		221,
+		191,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\suffragium.bmp",
+		"  Grupo Eden",
+		"#0x00FFFFFF"
+	},
+	{
+		"louyang",
+		224,
+		107,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\suffragium.bmp",
+		"  Grupo Eden",
+		"#0x00FFFFFF"
+	},
+	{
+		"gonryun",
+		162,
+		122,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\suffragium.bmp",
+		"  Grupo Eden",
+		"#0x00FFFFFF"
+	},
+	{
+		"moscovia",
+		209,
+		197,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\suffragium.bmp",
+		"  Grupo Eden",
+		"#0x00FFFFFF"
+	},
+	{
+		"brasilis",
+		191,
+		224,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\suffragium.bmp",
+		"  Grupo Eden",
+		"#0x00FFFFFF"
+	},
+	{
+		"dewata",
+		192,
+		193,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\suffragium.bmp",
+		"  Grupo Eden",
+		"#0x00FFFFFF"
+	},
+	{
+		"malaya",
+		225,
+		218,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\suffragium.bmp",
+		"  Grupo Eden",
+		"#0x00FFFFFF"
+	},
+	{
+		"alberta",
+		189,
+		151,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\ship_ticket.bmp",
+		"  여객선 승선",
+		"#0x00FFFFFF"
+	},
+	{
+		"alb2trea",
+		39,
+		50,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\ship_ticket.bmp",
+		"  알베르타행",
+		"#0x00FFFFFF"
+	},
+	{
+		"alberta",
+		195,
+		151,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\ship_ticket.bmp",
+		"  난파선행",
+		"#0x00FFFFFF"
+	},
+	{
+		"cmd_fild07",
+		299,
+		83,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\ship_ticket.bmp",
+		"  여객선 승선",
+		"#0x00FFFFFF"
+	},
+	{
+		"cmd_fild07",
+		94,
+		134,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\ship_ticket.bmp",
+		"  여객선 승선",
+		"#0x00FFFFFF"
+	},
+	{
+		"izlude",
+		197,
+		205,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\ship_ticket.bmp",
+		"  여객선 승선",
+		"#0x00FFFFFF"
+	},
+	{
+		"izlu2dun",
+		108,
+		27,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\ship_ticket.bmp",
+		"  이즈루드행",
+		"#0x00FFFFFF"
+	},
+	{
+		"izlude",
+		180,
+		224,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\ship_ticket.bmp",
+		"  자와이행",
+		"#0x00FFFFFF"
+	},
+	{
+		"jawaii",
+		122,
+		263,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\ship_ticket.bmp",
+		"  알베르타행",
+		"#0x00FFFFFF"
+	},
+	{
+		"jawaii",
+		239,
+		112,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\ship_ticket.bmp",
+		"  이즈루드행",
+		"#0x00FFFFFF"
+	},
+	{
+		"aldebaran",
+		168,
+		168,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\ship_ticket.bmp",
+		"  루티에행",
+		"#0x00FFFFFF"
+	},
+	{
+		"hugel",
+		209,
+		109,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\ship_ticket.bmp",
+		"  오딘신전 행",
+		"#0x00FFFFFF"
+	},
+	{
+		"odin_tem01",
+		93,
+		146,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\ship_ticket.bmp",
+		"  휘겔 행",
+		"#0x00FFFFFF"
+	},
+	{
+		"alberta",
+		246,
+		40,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\ship_ticket.bmp",
+		"  용지성 행",
+		"#0x00FFFFFF"
+	},
+	{
+		"lou_fild01",
+		190,
+		101,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\ship_ticket.bmp",
+		"  알베르타 행",
+		"#0x00FFFFFF"
+	},
+	{
+		"alberta",
+		246,
+		74,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\ship_ticket.bmp",
+		"  아마쯔 행",
+		"#0x00FFFFFF"
+	},
+	{
+		"amatsu",
+		194,
+		79,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\ship_ticket.bmp",
+		"  알베르타 행",
+		"#0x00FFFFFF"
+	},
+	{
+		"alberta",
+		246,
+		29,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\ship_ticket.bmp",
+		"  아요타야 행",
+		"#0x00FFFFFF"
+	},
+	{
+		"ayothaya",
+		152,
+		68,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\ship_ticket.bmp",
+		"  알베르타 행",
+		"#0x00FFFFFF"
+	},
+	{
+		"alberta",
+		246,
+		82,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\ship_ticket.bmp",
+		"  브라질리스 행",
+		"#0x00FFFFFF"
+	},
+	{
+		"brasilis",
+		316,
+		57,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\ship_ticket.bmp",
+		"  알베르타 행",
+		"#0x00FFFFFF"
+	},
+	{
+		"alberta",
+		246,
+		62,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\ship_ticket.bmp",
+		"  쿤룬 행",
+		"#0x00FFFFFF"
+	},
+	{
+		"gon_fild01",
+		255,
+		79,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\ship_ticket.bmp",
+		"  알베르타 행",
+		"#0x00FFFFFF"
+	},
+	{
+		"alberta",
+		196,
+		202,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\ship_ticket.bmp",
+		"  포트말라야 행",
+		"#0x00FFFFFF"
+	},
+	{
+		"malaya",
+		276,
+		55,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\ship_ticket.bmp",
+		"  알베르타 행",
+		"#0x00FFFFFF"
+	},
+	{
+		"alberta",
+		212,
+		202,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\ship_ticket.bmp",
+		"  데와타 행",
+		"#0x00FFFFFF"
+	},
+	{
+		"dewata",
+		229,
+		49,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\ship_ticket.bmp",
+		"  알베르타 행",
+		"#0x00FFFFFF"
+	},
+	{
+		"alberta",
+		246,
+		51,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\ship_ticket.bmp",
+		"  모스코비아 행",
+		"#0x00FFFFFF"
+	},
+	{
+		"moscovia",
+		166,
+		53,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\ship_ticket.bmp",
+		"  알베르타 행",
+		"#0x00FFFFFF"
+	},
+	{
+		"alberta",
+		240,
+		103,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\ship_ticket.bmp",
+		"  락 릿지 행",
+		"#0x00FFFFFF"
+	},
+	{
+		"harboro1",
+		60,
+		215,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\ship_ticket.bmp",
+		"  알베르타 행",
+		"#0x00FFFFFF"
+	},
+	{
+		"alberta",
+		244,
+		118,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\ship_ticket.bmp",
+		"  거북섬 행",
+		"#0x00FFFFFF"
+	},
+	{
+		"tur_dun01",
+		165,
+		29,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\ship_ticket.bmp",
+		"  알베르타 행",
+		"#0x00FFFFFF"
+	},
+	{
+		"lasagna",
+		205,
+		325,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\ship_ticket.bmp",
+		"  여객선 승선",
+		"#0x00FFFFFF"
+	},
+	{
+		"izlude",
+		195,
+		213,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\ship_ticket.bmp",
+		"  라자냐 행",
+		"#0x00FFFFFF"
+	},
+	{
+		"malangdo",
+		218,
+		81,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\ship_ticket.bmp",
+		"  라자냐 행",
+		"#0x00FFFFFF"
+	},
+	{
+		"izlude",
+		182,
+		218,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\ship_ticket.bmp",
+		"  말랑도 행",
+		"#0x00FFFFFF"
+	},
+	{
+		"alberta",
+		200,
+		151,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\ship_ticket.bmp",
+		"  말랑도 행",
+		"#0x00FFFFFF"
+	},
+	{
+		"malangdo",
+		219,
+		86,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\ship_ticket.bmp",
+		"  여객선 승선",
+		"#0x00FFFFFF"
+	},
+	{
+		"prt_in",
+		33,
+		114,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\clan_system\\clan_emblem01.bmp",
+		"  Espada Imperial",
+		"#0x00FFFFFF"
+	},
+	{
+		"prt_in",
+		35,
+		114,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\clan_system\\clan_emblem02.bmp",
+		"  Cajado Arcano",
+		"#0x00FFFFFF"
+	},
+	{
+		"prt_in",
+		37,
+		114,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\clan_system\\clan_emblem03.bmp",
+		"  Ma? de Ouro",
+		"#0x00FFFFFF"
+	},
+	{
+		"prt_in",
+		39,
+		114,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\clan_system\\clan_emblem04.bmp",
+		"  Arco de Rudra",
+		"#0x00FFFFFF"
+	},
+	{
+		"prt_church",
+		97,
+		100,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\wedding.bmp",
+		"  Casementeira",
+		"#0x00FFFFFF"
+	},
+	{
+		"lasagna",
+		335,
+		248,
+		10,
+		IT_SIGNBOARD,
+		"유저인터페이스\\item\\wedding.bmp",
+		"  Casamento",
+		"#0x00FFFFFF"
+	},
+	{
+		"prt_in",
+		285,
+		169,
+		0,
+		IT_BMP,
+		"유저인터페이스\\information\\over_nmtrade.bmp"
+	},
+	{
+		"prt_in",
+		212,
+		169,
+		0,
+		IT_BMP,
+		"유저인터페이스\\information\\over_nmtrade.bmp"
+	},
+	{
+		"prt_in",
+		211,
+		173,
+		0,
+		IT_BMP,
+		"유저인터페이스\\information\\over_nmtrade.bmp"
+	}
+}

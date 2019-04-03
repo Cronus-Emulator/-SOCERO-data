@@ -1,0 +1,794 @@
+_DressHeadPaletteList_f = {
+	{ "(0) Padrão", 0 },
+	{ "(1) Amarelo", 1 },
+	{ "(2) Roxo", 2 },
+	{ "(3) Laranja", 3 },
+	{ "(4) Verde", 4 },
+	{ "(5) Azul", 5 },
+	{ "(6) Branco", 6 },
+	{ "(7) Preto", 7 },
+	{ "(8) Vermelho", 8 }
+}
+_DressHeadPaletteList_m = {
+	{ "(0) Padrão", 0 },
+	{ "(1) Amarelo", 1 },
+	{ "(2) Roxo", 2 },
+	{ "(3) Laranja", 3 },
+	{ "(4) Verde", 4 },
+	{ "(5) Azul", 5 },
+	{ "(6) Branco", 6 },
+	{ "(7) Preto", 7 },
+	{ "(8) Vermelho", 8 }
+}
+_DressBodyPaletteList_f = {
+	{ "(0) Cor", 0 },
+	{ "(1) Cor", 1 },
+	{ "(2) Cor", 2 },
+	{ "(3) Cor", 3 },
+	{ "(4) Cor", 4 },
+	{ "(5) Cor", 5 },
+	{ "(6) Cor", 6 },
+	{ "(7) Cor", 7 },
+	{ "(8) Cor", 8 },
+	{ "(9) Cor", 9 },
+	{ "(10) Cor", 10 },
+	{ "(11) Cor", 11 },
+	{ "(12) Cor", 12 },
+	{ "(13) Cor", 13 },
+	{ "(14) Cor", 14 },
+	{ "(15) Cor", 15 },
+	{ "(16) Cor", 16 },
+	{ "(17) Cor", 17 },
+	{ "(18) Cor", 18 },
+	{ "(19) Cor", 19 },
+	{ "(20) Cor", 20 },
+	{ "(21) Cor", 21 },
+	{ "(22) Cor", 22 },
+	{ "(23) Cor", 23 },
+	{ "(24) Cor", 24 },
+	{ "(25) Cor", 25 },
+	{ "(26) Cor", 26 },
+	{ "(27) Cor", 27 },
+	{ "(28) Cor", 28 },
+	{ "(29) Cor", 29 },
+	{ "(30) Cor", 30 },
+	{ "(31) Cor", 31 },
+	{ "(32) Cor", 32 },
+	{ "(33) Cor", 33 },
+	{ "(34) Cor", 34 },
+	{ "(35) Cor", 35 },
+	{ "(36) Cor", 36 },
+	{ "(37) Cor", 37 },
+	{ "(38) Cor", 38 },
+	{ "(39) Cor", 39 },
+	{ "(40) Cor", 40 },
+	{ "(41) Cor", 41 },
+	{ "(42) Cor", 42 },
+	{ "(43) Cor", 43 },
+	{ "(44) Cor", 44 },
+	{ "(45) Cor", 45 },
+	{ "(46) Cor", 46 },
+	{ "(47) Cor", 47 },
+	{ "(48) Cor", 48 },
+	{ "(49) Cor", 49 },
+	{ "(50) Cor", 50 },
+	{ "(51) Cor", 51 },
+	{ "(52) Cor", 52 },
+	{ "(53) Cor", 53 },
+	{ "(54) Cor", 54 },
+	{ "(55) Cor", 55 },
+	{ "(56) Cor", 56 },
+	{ "(57) Cor", 57 },
+	{ "(58) Cor", 58 },
+	{ "(59) Cor", 59 },
+	{ "(60) Cor", 60 },
+	{ "(61) Cor", 61 },
+	{ "(62) Cor", 62 },
+	{ "(63) Cor", 63 },
+	{ "(64) Cor", 64 },
+	{ "(65) Cor", 65 },
+	{ "(66) Cor", 66 },
+	{ "(67) Cor", 67 },
+	{ "(68) Cor", 68 },
+	{ "(69) Cor", 69 },
+	{ "(70) Cor", 70 },
+	{ "(71) Cor", 71 },
+	{ "(72) Cor", 72 },
+	{ "(73) Cor", 73 },
+	{ "(74) Cor", 74 },
+	{ "(75) Cor", 75 },
+	{ "(76) Cor", 76 },
+	{ "(77) Cor", 77 },
+	{ "(78) Cor", 78 },
+	{ "(79) Cor", 79 },
+	{ "(80) Cor", 80 },
+	{ "(81) Cor", 81 },
+	{ "(82) Cor", 82 },
+	{ "(83) Cor", 83 },
+	{ "(84) Cor", 84 },
+	{ "(85) Cor", 85 },
+	{ "(86) Cor", 86 },
+	{ "(87) Cor", 87 },
+	{ "(88) Cor", 88 },
+	{ "(89) Cor", 89 },
+	{ "(90) Cor", 90 },
+	{ "(91) Cor", 91 },
+	{ "(92) Cor", 92 },
+	{ "(93) Cor", 93 },
+	{ "(94) Cor", 94 },
+	{ "(95) Cor", 95 },
+	{ "(96) Cor", 96 },
+	{ "(97) Cor", 97 },
+	{ "(98) Cor", 98 },
+	{ "(99) Cor", 99 },
+	{ "(100) Cor", 100 }
+}
+_DressBodyPaletteList_m = {
+	{ "(0) Cor", 0 },
+	{ "(1) Cor", 1 },
+	{ "(2) Cor", 2 },
+	{ "(3) Cor", 3 },
+	{ "(4) Cor", 4 },
+	{ "(5) Cor", 5 },
+	{ "(6) Cor", 6 },
+	{ "(7) Cor", 7 },
+	{ "(8) Cor", 8 },
+	{ "(9) Cor", 9 },
+	{ "(10) Cor", 10 },
+	{ "(11) Cor", 11 },
+	{ "(12) Cor", 12 },
+	{ "(13) Cor", 13 },
+	{ "(14) Cor", 14 },
+	{ "(15) Cor", 15 },
+	{ "(16) Cor", 16 },
+	{ "(17) Cor", 17 },
+	{ "(18) Cor", 18 },
+	{ "(19) Cor", 19 },
+	{ "(20) Cor", 20 },
+	{ "(21) Cor", 21 },
+	{ "(22) Cor", 22 },
+	{ "(23) Cor", 23 },
+	{ "(24) Cor", 24 },
+	{ "(25) Cor", 25 },
+	{ "(26) Cor", 26 },
+	{ "(27) Cor", 27 },
+	{ "(28) Cor", 28 },
+	{ "(29) Cor", 29 },
+	{ "(30) Cor", 30 },
+	{ "(31) Cor", 31 },
+	{ "(32) Cor", 32 },
+	{ "(33) Cor", 33 },
+	{ "(34) Cor", 34 },
+	{ "(35) Cor", 35 },
+	{ "(36) Cor", 36 },
+	{ "(37) Cor", 37 },
+	{ "(38) Cor", 38 },
+	{ "(39) Cor", 39 },
+	{ "(40) Cor", 40 },
+	{ "(41) Cor", 41 },
+	{ "(42) Cor", 42 },
+	{ "(43) Cor", 43 },
+	{ "(44) Cor", 44 },
+	{ "(45) Cor", 45 },
+	{ "(46) Cor", 46 },
+	{ "(47) Cor", 47 },
+	{ "(48) Cor", 48 },
+	{ "(49) Cor", 49 },
+	{ "(50) Cor", 50 },
+	{ "(51) Cor", 51 },
+	{ "(52) Cor", 52 },
+	{ "(53) Cor", 53 },
+	{ "(54) Cor", 54 },
+	{ "(55) Cor", 55 },
+	{ "(56) Cor", 56 },
+	{ "(57) Cor", 57 },
+	{ "(58) Cor", 58 },
+	{ "(59) Cor", 59 },
+	{ "(60) Cor", 60 },
+	{ "(61) Cor", 61 },
+	{ "(62) Cor", 62 },
+	{ "(63) Cor", 63 },
+	{ "(64) Cor", 64 },
+	{ "(65) Cor", 65 },
+	{ "(66) Cor", 66 },
+	{ "(67) Cor", 67 },
+	{ "(68) Cor", 68 },
+	{ "(69) Cor", 69 },
+	{ "(70) Cor", 70 },
+	{ "(71) Cor", 71 },
+	{ "(72) Cor", 72 },
+	{ "(73) Cor", 73 },
+	{ "(74) Cor", 74 },
+	{ "(75) Cor", 75 },
+	{ "(76) Cor", 76 },
+	{ "(77) Cor", 77 },
+	{ "(78) Cor", 78 },
+	{ "(79) Cor", 79 },
+	{ "(80) Cor", 80 },
+	{ "(81) Cor", 81 },
+	{ "(82) Cor", 82 },
+	{ "(83) Cor", 83 },
+	{ "(84) Cor", 84 },
+	{ "(85) Cor", 85 },
+	{ "(86) Cor", 86 },
+	{ "(87) Cor", 87 },
+	{ "(88) Cor", 88 },
+	{ "(89) Cor", 89 },
+	{ "(90) Cor", 90 },
+	{ "(91) Cor", 91 },
+	{ "(92) Cor", 92 },
+	{ "(93) Cor", 93 },
+	{ "(94) Cor", 94 },
+	{ "(95) Cor", 95 },
+	{ "(96) Cor", 96 },
+	{ "(97) Cor", 97 },
+	{ "(98) Cor", 98 },
+	{ "(99) Cor", 99 },
+	{ "(100) Cor", 100 }
+}
+_DressHeadstyleList_f = {
+	{ "(1) Penteado", 1 },
+	{ "(2) Penteado", 2 },
+	{ "(3) Penteado", 3 },
+	{ "(4) Penteado", 4 },
+	{ "(5) Penteado", 5 },
+	{ "(6) Penteado", 6 },
+	{ "(7) Penteado", 7 },
+	{ "(8) Penteado", 8 },
+	{ "(9) Penteado", 9 },
+	{ "(10) Penteado", 10 },
+	{ "(11) Penteado", 11 },
+	{ "(12) Penteado", 12 },
+	{ "(13) Penteado", 13 },
+	{ "(14) Penteado", 14 },
+	{ "(15) Penteado", 15 },
+	{ "(16) Penteado", 16 },
+	{ "(17) Penteado", 17 },
+	{ "(18) Penteado", 18 },
+	{ "(19) Penteado", 19 },
+	{ "(20) Penteado", 20 },
+	{ "(21) Penteado", 21 },
+	{ "(22) Penteado", 22 },
+	{ "(23) Penteado", 23 },
+	{ "(24) Penteado", 24 },
+	{ "(25) Penteado", 25 },
+	{ "(26) Penteado", 26 },
+	{ "(27) Penteado", 27 },
+	{ "(28) Penteado", 28 },
+	{ "(29) Penteado", 29 },
+	{ "(30) Penteado ~ VIP", 30 },
+	{ "(31) Penteado ~ VIP", 31 },
+	{ "(32) Penteado ~ VIP", 32 },
+	{ "(33) Penteado ~ VIP", 33 },
+	{ "(34) Penteado ~ VIP", 34 },
+	{ "(35) Penteado ~ VIP", 35 },
+	{ "(36) Penteado ~ VIP", 36 },
+	{ "(37) Penteado ~ VIP", 37 },
+	{ "(38) Penteado ~ VIP", 38 },
+	{ "(39) Penteado ~ VIP", 39 },
+	{ "(40) Penteado ~ VIP", 40 },
+	{ "(41) Penteado ~ VIP", 41 },
+	{ "(42) Penteado ~ VIP", 42 },
+	{ "(43) Penteado ~ VIP", 43 },
+	{ "(44) Penteado ~ VIP", 44 },
+	{ "(45) Penteado ~ VIP", 45 },
+	{ "(46) Penteado ~ VIP", 46 },
+	{ "(47) Penteado ~ VIP", 47 },
+	{ "(48) Penteado ~ VIP", 48 },
+	{ "(49) Penteado ~ VIP", 49 },
+	{ "(50) Penteado ~ VIP", 50 },
+	{ "(51) Penteado ~ VIP", 51 },
+	{ "(52) Penteado ~ VIP", 52 },
+	{ "(53) Penteado ~ VIP", 53 },
+	{ "(54) Penteado ~ VIP", 54 },
+	{ "(55) Penteado ~ VIP", 55 },
+	{ "(56) Penteado ~ VIP", 56 },
+	{ "(57) Penteado ~ VIP", 57 },
+	{ "(58) Penteado ~ VIP", 58 },
+	{ "(59) Penteado ~ VIP", 59 },
+	{ "(60) Penteado ~ VIP", 60 },
+	{ "(61) Penteado ~ VIP", 61 },
+	{ "(62) Penteado ~ VIP", 62 },
+	{ "(63) Penteado ~ VIP", 63 },
+	{ "(64) Penteado ~ VIP", 64 },
+	{ "(65) Penteado ~ VIP", 65 },
+	{ "(66) Penteado ~ VIP", 66 },
+	{ "(67) Penteado ~ VIP", 67 },
+	{ "(68) Penteado ~ VIP", 68 },
+	{ "(69) Penteado ~ VIP", 69 },
+	{ "(70) Penteado ~ VIP", 70 },
+	{ "(71) Penteado ~ VIP", 71 },
+	{ "(72) Penteado ~ VIP", 72 },
+	{ "(73) Penteado ~ VIP", 73 },
+	{ "(74) Penteado ~ VIP", 74 },
+	{ "(75) Penteado ~ VIP", 75 },
+	{ "(76) Penteado ~ VIP", 76 },
+	{ "(77) Penteado ~ VIP", 77 },
+	{ "(78) Penteado ~ VIP", 78 },
+	{ "(79) Penteado ~ VIP", 79 },
+	{ "(80) Penteado ~ VIP", 80 },
+	{ "(81) Penteado ~ VIP", 81 },
+	{ "(82) Penteado ~ VIP", 82 },
+	{ "(83) Penteado ~ VIP", 83 },
+	{ "(84) Penteado ~ VIP", 84 }
+}
+_DressHeadstyleList_m = {
+	{ "(1) Penteado", 1 },
+	{ "(2) Penteado", 2 },
+	{ "(3) Penteado", 3 },
+	{ "(4) Penteado", 4 },
+	{ "(5) Penteado", 5 },
+	{ "(6) Penteado", 6 },
+	{ "(7) Penteado", 7 },
+	{ "(8) Penteado", 8 },
+	{ "(9) Penteado", 9 },
+	{ "(10) Penteado", 10 },
+	{ "(11) Penteado", 11 },
+	{ "(12) Penteado", 12 },
+	{ "(13) Penteado", 13 },
+	{ "(14) Penteado", 14 },
+	{ "(15) Penteado", 15 },
+	{ "(16) Penteado", 16 },
+	{ "(17) Penteado", 17 },
+	{ "(18) Penteado", 18 },
+	{ "(19) Penteado", 19 },
+	{ "(20) Penteado", 20 },
+	{ "(21) Penteado", 21 },
+	{ "(22) Penteado", 22 },
+	{ "(23) Penteado", 23 },
+	{ "(24) Penteado", 24 },
+	{ "(25) Penteado", 25 },
+	{ "(26) Penteado", 26 },
+	{ "(27) Penteado", 27 },
+	{ "(28) Penteado", 28 },
+	{ "(29) Penteado", 29 },
+	{ "(30) Penteado ~ VIP", 30 },
+	{ "(31) Penteado ~ VIP", 31 },
+	{ "(32) Penteado ~ VIP", 32 },
+	{ "(33) Penteado ~ VIP", 33 },
+	{ "(34) Penteado ~ VIP", 34 },
+	{ "(35) Penteado ~ VIP", 35 },
+	{ "(36) Penteado ~ VIP", 36 },
+	{ "(37) Penteado ~ VIP", 37 },
+	{ "(38) Penteado ~ VIP", 38 },
+	{ "(39) Penteado ~ VIP", 39 },
+	{ "(40) Penteado ~ VIP", 40 },
+	{ "(41) Penteado ~ VIP", 41 },
+	{ "(42) Penteado ~ VIP", 42 },
+	{ "(43) Penteado ~ VIP", 43 },
+	{ "(44) Penteado ~ VIP", 44 },
+	{ "(45) Penteado ~ VIP", 45 },
+	{ "(46) Penteado ~ VIP", 46 },
+	{ "(47) Penteado ~ VIP", 47 },
+	{ "(48) Penteado ~ VIP", 48 },
+	{ "(49) Penteado ~ VIP", 49 },
+	{ "(50) Penteado ~ VIP", 50 },
+	{ "(51) Penteado ~ VIP", 51 },
+	{ "(52) Penteado ~ VIP", 52 },
+	{ "(53) Penteado ~ VIP", 53 },
+	{ "(54) Penteado ~ VIP", 54 },
+	{ "(55) Penteado ~ VIP", 55 },
+	{ "(56) Penteado ~ VIP", 56 },
+	{ "(57) Penteado ~ VIP", 57 },
+	{ "(58) Penteado ~ VIP", 58 },
+	{ "(59) Penteado ~ VIP", 59 },
+	{ "(60) Penteado ~ VIP", 60 },
+	{ "(61) Penteado ~ VIP", 61 },
+	{ "(62) Penteado ~ VIP", 62 },
+	{ "(63) Penteado ~ VIP", 63 },
+	{ "(64) Penteado ~ VIP", 64 },
+	{ "(65) Penteado ~ VIP", 65 },
+	{ "(66) Penteado ~ VIP", 66 },
+	{ "(67) Penteado ~ VIP", 67 },
+	{ "(68) Penteado ~ VIP", 68 },
+	{ "(69) Penteado ~ VIP", 69 },
+	{ "(70) Penteado ~ VIP", 70 },
+	{ "(71) Penteado ~ VIP", 71 },
+	{ "(72) Penteado ~ VIP", 72 },
+	{ "(73) Penteado ~ VIP", 73 },
+	{ "(74) Penteado ~ VIP", 74 },
+	{ "(75) Penteado ~ VIP", 75 },
+	{ "(76) Penteado ~ VIP", 76 },
+	{ "(77) Penteado ~ VIP", 77 },
+	{ "(78) Penteado ~ VIP", 78 },
+	{ "(79) Penteado ~ VIP", 79 },
+	{ "(80) Penteado ~ VIP", 80 },
+	{ "(81) Penteado ~ VIP", 81 },
+	{ "(82) Penteado ~ VIP", 82 },
+	{ "(83) Penteado ~ VIP", 83 },
+	{ "(84) Penteado ~ VIP", 84 }
+}
+_DressList_f = {
+-- Rune Knight
+	[4054] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Warlock
+	[4055] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Ranger
+	[4056] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Arch Bishop
+	[4057] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Mechanic
+	[4058] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Guillotine Cross
+	[4059] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Rune Knight (Trans)
+	[4060] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Warlock (Trans)
+	[4061] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Ranger (Trans)
+	[4062] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Arch Bishop (Trans)
+	[4063] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Mechanic (Trans)
+	[4064] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Guillotine Cross (Trans)
+	[4065] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Royal Guard
+	[4066] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Sorcerer
+	[4067] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Minstrel
+	[4068] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Wanderer
+	[4069] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Sura
+	[4070] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Genetic
+	[4071] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Shadow Chaser
+	[4072] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Royal Guard (Trans)
+	[4073] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Sorcerer (Trans)
+	[4074] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Minstrel (Trans)
+	[4075] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Wanderer (Trans)
+	[4076] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Sura (Trans)
+	[4077] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Genetic (Trans)
+	[4078] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Shadow Chaser (Trans)
+	[4079] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Rune Knight (Baby)
+	[4096] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Warlock (Baby)
+	[4097] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Ranger (Baby)
+	[4098] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Arch Bishop (Baby)
+	[4099] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Mechanic (Baby)
+	[4100] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Guillotine Cross (Baby)
+	[4101] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Royal Guard (Baby)
+	[4102] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Sorcerer (Baby)
+	[4103] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Minstrel (Baby)
+	[4104] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Wanderer (Baby)
+	[4105] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Sura (Baby)
+	[4106] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Genetic (Baby)
+	[4107] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Shadow Chaser (Baby)
+	[4108] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	}
+}
+_DressList_m = {
+-- Rune Knight
+	[4054] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Warlock
+	[4055] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Ranger
+	[4056] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Arch Bishop
+	[4057] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Mechanic
+	[4058] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Guillotine Cross
+	[4059] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Rune Knight (Trans)
+	[4060] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Warlock (Trans)
+	[4061] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Ranger (Trans)
+	[4062] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Arch Bishop (Trans)
+	[4063] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Mechanic (Trans)
+	[4064] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Guillotine Cross (Trans)
+	[4065] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Royal Guard
+	[4066] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Sorcerer
+	[4067] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Minstrel
+	[4068] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Wanderer
+	[4069] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Sura
+	[4070] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Genetic
+	[4071] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Shadow Chaser
+	[4072] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Royal Guard (Trans)
+	[4073] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Sorcerer (Trans)
+	[4074] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Minstrel (Trans)
+	[4075] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Wanderer (Trans)
+	[4076] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Sura (Trans)
+	[4077] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Genetic (Trans)
+	[4078] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Shadow Chaser (Trans)
+	[4079] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Rune Knight (Baby)
+	[4096] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Warlock (Baby)
+	[4097] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Ranger (Baby)
+	[4098] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Arch Bishop (Baby)
+	[4099] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Mechanic (Baby)
+	[4100] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Guillotine Cross (Baby)
+	[4101] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Royal Guard (Baby)
+	[4102] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Sorcerer (Baby)
+	[4103] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Minstrel (Baby)
+	[4104] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Wanderer (Baby)
+	[4105] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Sura (Baby)
+	[4106] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Genetic (Baby)
+	[4107] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	},
+-- Shadow Chaser (Baby)
+	[4108] = {
+		{ "(0) Padrão", 0 },
+		{ "(1) Alternativa", 1 }
+	}
+}

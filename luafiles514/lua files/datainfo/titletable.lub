@@ -1,0 +1,44 @@
+title_tbl = {
+	[1000] = "Junção da vida",
+	[1001] = "Especialista",
+	[1002] = "Expert",
+	[1003] = "Mestre",
+	[1004] = "Grande Mestre",
+	[1005] = "Aprendiz Aventureiro",
+	[1006] = "Veterano Aventureiro",
+	[1007] = "Mestre Aventureiro",
+	[1008] = "do Dragão",
+	[1009] = "da Loucura",
+	[1010] = "Corpo de Aço",
+	[1011] = "O Flash Amarelo",
+	[1012] = "Afiado",
+	[1013] = "Sortudo",
+	[1014] = "Encarnação do Amor e do Ódio",
+	[1015] = "Maníaco",
+	[1016] = "Renascido",
+	[1017] = "Vermelho Sangrento",
+	[1018] = "Teletransportador Principiante",
+	[1019] = "Me toque yoyo",
+	[1020] = "Jogador",
+	[1021] = "Mestre de Manual de Batalha",
+	[1022] = "Pessoa Casada",
+	[1023] = "Presidente",
+	[1024] = "Trabalho duro",
+	[1025] = "Poring Mania",
+	[1026] = "Abridor de Costas",
+	[1027] = "Amante dos animais",
+	[1028] = "Contratante do Mal",
+	[1029] = "Menina Monstro",
+	[1030] = "Garoto Monstro",
+	[1031] = "Visionário",
+	[1032] = "Broto Crescente",
+	[1033] = "Criar Família",
+	[1034] = "VIP"
+}
+
+GetTitleString = function(titleID)
+	if title_tbl[titleID] ~= nil then
+		return title_tbl[titleID]
+	end
+	return ""
+end

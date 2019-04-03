@@ -1,0 +1,405 @@
+map_list = {
+	{name = "Todos os Mapas",
+	list = {{name = "Todos os Mapas"}},
+		ignore_recruit_window = true
+	},
+	{name = "Prontera",
+	list = {{name = "Campos de Prontera"},
+		{name = "Esgotos de Prontera (1)"},
+		{name = "Esgotos de Prontera (2)"},
+		{name = "Esgotos de Prontera (3)"},
+		{name = "Esgotos de Prontera (4)", colorR = 255, colorG = 0, colorB = 0},
+		{name = "Floresta do Labirinto (1)"},
+		{name = "Floresta do Labirinto (2)"},
+		{name = "Floresta do Labirinto (3)", colorR = 255, colorG = 0, colorB = 0}}
+	},
+	{name = "Geffen",
+	list = {{name = "Campos de Geffen"},
+		{name = "Arredores de Geffen"},
+		{name = "Calabouço de Geffen (1)"},
+		{name = "Calabouço de Geffen (2)", colorR = 255, colorG = 0, colorB = 0},
+		{name = "Calabouço de Geffen (3)", colorR= 255, colorG = 0, colorB = 0},
+		{name = "Geffenia"},
+		{name = "Vila dos Orcs", colorR = 255, colorG = 0, colorB = 0},
+		{name = "Calabou?o dos Orcs (1)"},
+		{name = "Calabou?o dos Orcs (2)"}}
+	},
+	{name = "Payon",
+	list = {{name = "Floresta de Payon", colorR = 255, colorG = 0, colorB = 0},
+		{name = "Caverna de Payon (1)1"},
+		{name = "Caverna de Payon (2)"},
+		{name = "Caverna de Payon (3)"},
+		{name = "Caverna de Payon (4) (Templo Subterrâneo)"},
+		{name = "Caverna de Payon (5) (Templo Subterrâneo)", colorR = 255, colorG = 0, colorB = 0}}
+	},
+	{name = "Aldebaran",
+	list = {{name = "Monte Mjolnir - Norte (1)", colorR = 255, colorG = 0, colorB = 0},
+		{name = "Monte Mjolnir - Norte (2)"},
+		{name = "Monte Mjolnir - Sul (1)"},
+		{name = "Monte Mjolnir - Sul (2)"},
+		{name = "Mina Abandonada de Mjolnir (1)"},
+		{name = "Mina Abandonada de Mjolnir (2)"},
+		{name = "Mina Abandonada de Mjolnir (3)"},
+		{name = "Torre do Relógio (s1)"},
+		{name = "Torre do Relógio (s2)"},
+		{name = "Torre do Relógio (s3)"},
+		{name = "Torre do Relógio (s4)"},
+		{name = "Torre do Relógio (1)"},
+		{name = "Torre do Relógio (2)"},
+		{name = "Torre do Relógio (3)"},
+		{name = "Torre do Relógio (4)"}}
+	},
+	{name = "Alberta",
+	list = {{name = "Ilha de Alberta"},
+		{name = "Ilha de Alberta", colorR = 255, colorG = 0, colorB = 0},
+		{name = "Ilha da Tartaruga"},
+		{name = "Calabouço da Ilha da Tartaruga"},
+		{name = "Vila das Boas Tartarugas"},
+		{name = "Pal?cio da Ilha da Tartaruga", colorR = 255, colorG = 0, colorB = 0}}
+	},
+	{name = "Morroc",
+	list = {{name = "Deserto Sograt", colorR = 255, colorG = 0, colorB = 0},
+		{name = "Camnpos de Morroc (Ruptura Dimensional)", colorR = 255, colorG = 0, colorB = 0},
+		{name = "Formigueiro Infernal (1)"},
+		{name = "Formigueiro Infernal (2)", colorR = 255, colorG = 0, colorB = 0},
+		{name = "Esfinge (1)"},
+		{name = "Esfinge (2)"},
+		{name = "Esfinge (3)"},
+		{name = "Esfinge (4)"},
+		{name = "Esfinge (5)", colorR = 255, colorG = 0, colorB = 0},
+		{name = "Dentro da Pirâmide (1)"},
+		{name = "Dentro da Pirâmide (2)"},
+		{name = "Dentro da Pirâmide (3)"},
+		{name = "Dentro da Pirâmide (4)", colorR = 255, colorG = 0, colorB = 0},
+		{name = "Dentro da Pirâmide (5)"},
+		{name = "Dentro da Pirâmide (6)", colorR = 255, colorG = 0, colorB = 0}}
+	},
+	{name = "Izlude",
+	list = {{name = "Túnel Submarino (1)"},
+		{name = "Túnel Submarino (2)"},
+		{name = "Túnel Submarino (3)"},
+		{name = "Túnel Submarino (4)"},
+		{name = "Túnel Submarino (5)"}}
+	},
+	{name = "Comodo",
+	list = {{name = "Floresta Papuchica"},
+		{name = "Praia Kokomo#"},
+		{name = "Praia Zenhai"},
+		{name = "Ilha do Farol, Pharos"},
+		{name = "Fortaleza de Saint Darmain(Lest)"},
+		{name = "Fortaleza de Saint Darmain(Sul)"},
+		{name = "Fortaleza de Saint Darmain(Oeste)"},
+		{name = "Karu, a Caverna do Oeste", colorR = 255, colorG = 0, colorB = 0},
+		{name = "Ruande, a Caverna do Norte"},
+		{name = "Mao, a Caverna do Leste"}}
+	},
+	{name = "Lutie",
+	list = {{name = "Arredores de Lutie", colorR = 255, colorG = 0, colorB = 0},
+		{name = "Depósito da Fábrica de Brinquedos"},
+		{name = "Sala de Construção de Brinquedos", colorR = 255, colorG = 0, colorB = 0}}
+	},
+	{name = "Juno",
+	list = {{name = "Controle da Fronteira"},
+		{name = "Mansão de Kiel Hyre"},
+		{name = "Planalto de El Mes"},
+		{name = "Desfiladeiro de El Mes (Vale do Abismo)"},
+		{name = "Academia Kiel Hyre"},
+		{name = "Acampamento dos Guardas de Schwaltzwald"},
+		{name = "Campos de Juno"},
+		{name = "Calabouço de Magma (1)"},
+		{name = "Calabouço de Magma (2)"},
+		{name = "Ruínas de Juperos"},
+		{name = "Entrada das Ruínas de Juperos"},
+		{name = "Centro de Juperos", colorR = 255, colorG = 0, colorB = 0},
+		{name = "Fábrica de Robôs - Nível 1"},
+		{name = "Fábrica de Robôs - Nível 2", colorR = 255, colorG = 0, colorB = 0}}
+	},
+	{name = "Umbala",
+	list = {{name = "Floresta de Luluka"},
+		{name = "Pântano de Kalala"},
+		{name = "Floresta de Hoomga"},
+		{name = "Selva de Hoomga"}}
+	},
+	{name = "Einbech",
+	list = {{name = "Calabouço da Mina (1)"},
+		{name = "Calabouço da Mina (2)", colorR = 255, colorG = 0, colorB = 0}}
+	},
+	{name = "Lighthalzen",
+	list = {{name = "Campos de Lighthalzen"},
+		{name = "Campos de Lighthalzen (Vale da Morte)"},
+		{name = "Laboratório de Somatologia (1)"},
+		{name = "Laboratório de Somatologia (2)", colorR = 255, colorG = 0, colorB = 0},
+		{name = "Laboratório de Somatologia (3)", colorR = 255, colorG = 0, colorB = 0}}
+	},
+	{name = "Torre de Thanatos ",
+	list = {{name = "Entrada da Torre de Thanatos"}, --need translator please :)
+		{name = "Torre de Thanatos - Andar Inferior (1)"},
+		{name = "Torre de Thanatos - Andar Inferior (2)"},
+		{name = "Torre de Thanatos - Andar Superior (1)"},
+		{name = "Torre de Thanatos - Andar Superior (2)"},
+		{name = "Torre de Thanatos (Agonia)"},
+		{name = "Torre de Thanatos (Desgraça)"},
+		{name = "Torre de Thanatos (Desespero)"},
+		{name = "Torre de Thanatos (Ódio)"},
+		{name = "Torre de Thanatos - Área Desconhecida", colorR = 255, colorG = 0, colorB = 0}}
+	},
+	{name = "Glast Heim",
+	list = {{name = "Glast Heim (1)"},
+		{name = "Glast Heim (2)"},
+		{name = "Abadia de Glast Heim"},
+		{name = "Cemitério de Glast Heim", colorR = 255, colorG = 0, colorB = 0}, --Churchyard[English official server]
+		{name = "A Mais Profunda Caverna de Glast Heim (1)"}, --The Lowest Cave in Glast Heim F1[English official server]
+		{name = "A Mais Profunda Caverna de Glast Heim (2)"}, --The Lowest Cave in Glast Heim F2[English official server]
+		{name = "Casa em Glast Heim"}, --Inside Glast Heim[English official server]
+		{name = "Cavalaria de Glast Heim (1)"},
+		{name = "Cavalaria de Glast Heim (2)"},
+		{name = "Prisão Subterrânea de Glast Heim (1)},
+		{name = "Prisão Subterrânea de Glast Heim (2)"},
+		{name = "Esgoto de Glast Heim (1)"},
+		{name = "Esgoto de Glast Heim (2)"},
+		{name = "Esgoto de Glast Heim (3)"},
+		{name = "Esgoto de Glast Heim (4)"},
+		{name = "Escadarias de Glast Heim"}}
+	},
+	{name = "Hugel",
+	list = {{name = "Campos de Hugel"},
+		{name = "Santuário de Odin (Oeste)"},
+		{name = "Santuário de Odin (Sul)"},
+		{name = "Santuário de Odin (Norte)", colorR = 255, colorG = 0, colorB = 0},
+		{name = "O Lago do Abismo"},
+		{name = "Caverna Subterrânea do Lago do Abismo (1)"},
+		{name = "Caverna Subterrânea do Lago do Abismo (2)"},
+		{name = "Caverna Subterrânea do Lago do Abismo (3)", colorR = 255, colorG = 0, colorB = 0},
+		{name = "Arredores da Torre de Thanatos"}} --What?
+	},
+	{name = "Rachel",
+	list = {{name = "Pradaria Audhumbla"},
+		{name = "Planície de Ida", colorR = 255, colorG = 0, colorB = 0},
+		{name = "Portus Luna", colorR = 255, colorG = 0, colorB = 0},
+		{name = "Templo do Santuário (Norte)"}, --Freya's Sacred Precinct F1
+		{name = "Templo do Santuário (Oeste)"}, --Freya's Sacred Precinct F2
+		{name = "Templo do Santuário (Leste"}, --Freya's Sacred Precinct F3
+		{name = "Templo do Santuário (Sul)"}, --Freya's Sacred Precinct F4
+		{name = "Templo do Santuário (Centro)", colorR = 255, colorG = 0, colorB = 0}, --Freya's Sacred Precinct F5
+		{name = "Caverna de Gelo (1)"},
+		{name = "Caverna de Gelo (2)"},
+		{name = "Caverna de Gelo (3)"}}
+	},
+	{name = "Veins",
+	list = {{name = "Campos de Veins", colorR = 255, colorG = 0, colorB = 0},
+		{name = "Ilha Esquecida"},
+		{name = "Monastério (1)"},
+		{name = "Monastério (2)", colorR = 255, colorG = 0, colorB = 0},
+		{name = "Monastério (3)", colorR = 255, colorG = 0, colorB = 0},
+		{name = "Vulcão de Thor (1)"},
+		{name = "Vulcão de Thor (2)"},
+		{name = "Vulcão de Thor (3)", colorR = 255, colorG = 0, colorB = 0}}
+	},
+	{name = "Niflheim",
+	list = {{name = "Skellington, um vilarejo solitário em Nifflheim"},
+		{name = "Vale de Gyoll"},
+		{name = "Niflheim", colorR = 255, colorG = 0, colorB = 0}}
+	},
+	{name = "Manuk",
+	list = {{name = "Campos de Manuk"},
+		{name = "Campos dos Esplendores"},
+		{name = "Montanhas dos Manuk"}, --El Descates Field Foot Of The Kamidal Mountain
+		{name = "Túnel Kamidal"}, --Underground Passage Kamidal Tunnel
+		{name = "Dentro de Esplendor", colorR = 255, colorG = 0, colorB = 0}, --Underground Nest Scaraba Hole
+		{name = "Ninho de Nidhogg (1)"},
+		{name = "Ninho de Nidhogg (2)"}}
+	},
+	{name = "Amatsu",
+	list = {{name = "Campos de Amatsu"},
+		{name = "Labirinto de Tatames"},
+		{name = "Campo de Batalha da Floresta Subterrânea"},
+		{name = "Templo Subterrâneo de Amatsu", colorR = 255, colorG = 0, colorB = 0}}
+	},
+	{name = "Gonryun",
+	list = {{name = "Campos de Gonryun" },
+		{name = "Santuário de Xi Wang Mu" },
+		{name = "Kunlun, a Ilha dos Heremitas" },
+		{name = "Terra das Fadas", colorR = 255, colorG = 0, colorB = 0}}
+	},
+	{name = "Louyang",
+	list = {{name = "Campos de Louyang"},
+		{name = "A Tumba Real"},
+		{name = "Interior da Tumba Real"},
+		{name = "Suei Long Gon", colorR = 255, colorG = 0, colorB = 0}}
+	},
+	{name = "Ayothaya",
+	list = {{name = "Campos de Ayothaya"},
+		{name = "Labirinto do Santuário Ancestral"},
+		{name = "Interior do Santuário Ancestral", colorR = 255, colorG = 0, colorB = 0}}
+	},
+	{name = "Brasilis",
+	list = {{name = "Campos de Brasilis"},
+		{name = "Caverna das Cataratas"},  --Brasilia's Dungeon F1
+		{name = "Profundezas das Cataratas", colorR = 255, colorG = 0, colorB = 0}}  --Brasilia's Dungeon F2
+	},
+	{name = "Moscovia",
+	list = {{name = "Campos de Moscovia"}, --Okrestnosti Of Moscovia
+		{name = "Floresta Encantada (1)"},
+		{name = "Floresta Encantada (2)"},
+		{name = "Floresta Encantada (3)", colorR = 255, colorG = 0, colorB = 0}}
+	},
+	{name = "Inst?ncias",
+	list = {{name = "Torre Sem Fim", colorR = 255, colorG = 0, colorB = 0},
+		{name = "Altar do Selo", colorR = 255, colorG = 0, colorB = 0},
+		{name = "Memorial dos Orcs", colorR = 255, colorG = 0, colorB = 0},
+		{name = "Ninho de Nidhogg", colorR = 255, colorG = 0, colorB = 0}}
+	},
+}
+
+--Function #0
+printMapList = function() 
+	local regionId = 0
+	local mapId = 0
+	local state = ""
+	print("------------------")
+	for key, region in pairs(map_list) do
+		regionId = regionId +1
+		mapId = 0 
+		if region["ignore_recruit_window"] == true then
+			state = "?? ?? (??) ???? ??? ?? ???" --Party Recruitment (Application) menu is not available?
+		else
+			state = ""
+		end
+		print(regionId,region["name"],state)
+		for key, map in pairs(region["list"]) do
+			mapId = mapId +1
+			if map["color"] == nil then
+				color = "Primary Colors"
+			else 
+				color = "R: " .. map.color.R .. "G:" .. map.color.G .. "B:" .. map.color.B
+			end
+			print("\t" .. mapId .. ":" .. map.name, map.map_file, color)
+		end
+	end
+	print("------------------")
+end
+
+__mapList = {}
+
+makeMapList = function()
+	for regionId, region in ipairs(map_list) do
+		__mapList[regionId] = region
+		region["id"] = regionId
+		for mapId, map in ipairs(region["list"]) do
+			__mapList[regionId][mapId] = map
+			map.id = mapId
+			map.ignore_recruit_window = region["ignore_recruit_window"]
+		end
+	end
+end
+
+queryRegionInfo = function(regionId)
+	if __mapList[regionId] == nil then 
+		return nil,nil,nil,nil
+	end
+	return regionId,
+		__mapList[regionId]["name"],
+		getMapIterator(regionId),
+		__mapList[regionId]["ignore_recruit_window"]
+end
+
+queryMapInfo = function(regionId, mapId)
+	if __mapList[regionId] == nil then
+		return nil,nil,nil,nil,nil,nil
+	end
+	if __mapList[regionId][mapId] == nil then
+		return nil,nil,nil,nil,nil,nil
+	end
+	return regionId,
+	mapId,
+	__mapList[regionId][mapId]["name"],
+	__mapList[regionId][mapId]["colorR"],
+	__mapList[regionId][mapId]["colorG"],
+	__mapList[regionId][mapId]["colorB"]
+end
+
+getRegionIterator = function()
+	local pos = 1
+	return { 
+		["hasNext"] = function() return __mapList[pos] 
+			end,
+		["value"] = function() temp_pos = pos 
+			pos = pos + 1
+			return __mapList[temp_pos]
+			end
+		}
+end
+
+getMapIterator = function(regionId)
+	local pos = 1
+	return {
+		["hasNext"] = function() 
+			if __mapList[regionId] == nil then
+				return nil
+			end
+				return __mapList[regionId][pos]
+		end,
+		["value"] = function() 
+			temp_pos = pos
+			pos = pos +1
+			return __mapList[regionId][temp_pos]
+		end
+	}
+end
+
+makeMapList()
+
+print("[All Output Data Structure]")
+regionIterator = getRegionIterator()
+while regionIterator.hasNext() do
+	region = regionIterator.value()
+	print(region["id"],region["name"])
+	mapIterator = getMapIterator(region["id"])
+	while mapIterator.hasNext() do
+		map = mapIterator.value()
+		print("\t",queryMapInfo(region.id,map.id))
+	end
+end
+
+print("\n[Local Data Search]")
+regionIterator = getRegionIterator()
+while regionIterator.hasNext() do
+	region = regionIterator.value()
+	print(region.id,region.name)
+end
+
+print("\n[Map Data Search]")
+mapIterator = getMapIterator(2)
+while mapIterator.hasNext() do
+	map = mapIterator.value()
+	print(map.id,map.name)
+end
+
+print("\n[Regional Data Information Request]")
+print(queryRegionInfo(2))
+_,_,mapIterator,_ = queryRegionInfo(2)
+while mapIterator.hasNext() do
+	map = mapIterator.value()
+	print(map.id,map.name)
+end
+
+print("\n[Map Data Information Request]")
+print(queryMapInfo(2,1))
+PartyBookingHelp = {
+	"/recruit: Brings up the Recruitment Party window.",
+	"/booking: Brings up the Party Application List window.", --or Brings up the Party Booking List window
+	"/organize \"Party Name\": Creates a party.",
+	"/invite \"Character Name\": Invite the specific character to the party."
+}
+
+GetPartyBookingHelp = function()
+	local descript = ""
+	local obj = PartyBookingHelp
+	if obj ~= nil then
+		for i,v in pairs(obj) do
+			descript = descript .. v
+			descript = descript .. "\r\n"
+		end
+	end
+	return descript
+end
